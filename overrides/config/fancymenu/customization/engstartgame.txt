@@ -6,6 +6,7 @@ customization-meta {
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:de25b770-1179-4ed8-87b7-eaa6f20b1b291728912805309] = en_us
 }
 
 customization {
@@ -57,20 +58,6 @@ customization {
   actionid = 88e401b6-94e6-4dbc-8617-b9dd2227a6b61686459335370
   y = 60
   label = Back
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = opengui;com.mojang.realmsclient.RealmsMainScreen%btnaction_splitter_fm%
-  x = -76
-  width = 155
-  action = addbutton
-  actionid = b73f36fc-7e31-4790-aed3-86842b8661631692549145109
-  y = 21
-  label = Minecraft Realms
   height = 20
 }
 

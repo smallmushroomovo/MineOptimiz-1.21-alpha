@@ -32,7 +32,7 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/SmallMushroom-offical/MineOptimiz/issues%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/MineOptimiz-Team/MineOptimiz-3rd/issues%btnaction_splitter_fm%
   x = 8
   width = 138
   action = addbutton
