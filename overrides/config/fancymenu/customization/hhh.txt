@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraftforge.client.gui.LoadingErrorScreen
+  identifier = net.minecraft.class_433
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -11,15 +11,5 @@ customization-meta {
 customization {
   keepaspectratio = false
   action = backgroundoptions
-}
-
-customization {
-  identifier = %id=505954%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=50954%
-  action = hidebutton
 }
 

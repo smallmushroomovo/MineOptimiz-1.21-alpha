@@ -1,8 +1,5 @@
-type = user_variables
+type = cached_variables
 
-variable {
-  name = legacy_settings
-  value = 0
-  reset_on_launch = false
+variables {
 }
 

@@ -1,0 +1,247 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:bfe58c52-511f-4308-bc3f-1ab8700168ca1728908971075] = en_us
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 108
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 108
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=376286%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Options...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=604358%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 57
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = 06de3a86-7616-4da3-8891-95d20dac53c11692429698545
+  y = 260
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 8f20070d-bf58-492a-8c19-6be9503c00bb1692429698546
+  y = 228
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 97fde0c2-9cdb-4a89-8363-ab7a60a637e11692429698546
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = true
+  x = 99
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ca48ff86-5f85-4067-b868-54e8092317d21692429698547
+  y = 109
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.choosegame%btnaction_splitter_fm%
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = 223e415f-2d95-403c-9e5a-b55887a704ae1692429744087
+  y = -23
+  label = Start Game
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;io.123smallmushroom.quitgame%btnaction_splitter_fm%
+  x = 5
+  width = 98
+  action = addbutton
+  actionid = 2becb846-9562-425a-867a-824824a841cf1692431645176
+  y = 57
+  label = Quit Game
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.burningtnt.accountsx.adapters.mc.ui.AccountScreen%btnaction_splitter_fm%
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = ce075673-ccaa-4ef5-839a-1fd1f215048b1692574272388
+  y = 30
+  label = Switch Account
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.terraformersmc.modmenu.gui.ModsScreen%btnaction_splitter_fm%
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = e7506451-d895-4498-ba78-a0344813865a1706255599334
+  y = 3
+  label = Mods
+  height = 20
+}
+
+customization {
+  orientation = element
+  orientation_element = 7ec8178f-5c95-40be-b4a0-96fc9122f4b11728907664618
+  x = -186
+  width = 246
+  action = addwebtexture
+  actionid = d895b27b-06d7-4969-85b9-41c0015138191728907615025
+  y = -55
+  url = https://mirror.ghproxy.com/https://raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/1.20.1-Dev/overrides/config/fancymenu/assets/title.png
+  height = 66
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = true
+  x = 62
+  actionid = 7ec8178f-5c95-40be-b4a0-96fc9122f4b11728907664618
+  action = addsplash
+  y = 81
+  text = So fresh, so clean!
+}
+

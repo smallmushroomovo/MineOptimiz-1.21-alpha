@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = io.123smallmushroom.linuxupdate
+  identifier = io.123smallmushroom.justinfabric
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -14,34 +14,34 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
+  orientation = top-left
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = 尚未实现在Linux下自动打开脚本%n%请手动打开"游戏目录/Update.sh"
+  source = 该项仅Fabric端可用
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -99
+  x = 139
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = b4fdedc8-cabd-4c09-bc0a-c4a9c31a63ce1707042270857
-  y = -48
+  actionid = 3b81c93b-78ab-43d9-8d9c-cda6a30e3c951692575578077
+  y = 83
   alignment = centered
   height = 40
 }
 
 customization {
-  orientation = mid-centered
+  orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = closegui%btnaction_splitter_fm%
-  x = -78
-  width = 161
+  buttonaction = opengui;io.123smallmushroom.testing%btnaction_splitter_fm%
+  x = 191
+  width = 100
   action = addbutton
-  actionid = e81f6b44-aa6c-4ddb-8b0b-63b32c634bd41707042390819
-  y = 78
+  actionid = 4bc2743f-cd0c-4c38-b182-ce2b9413de5d1692575610530
+  y = 203
   label = 返回
   height = 20
 }

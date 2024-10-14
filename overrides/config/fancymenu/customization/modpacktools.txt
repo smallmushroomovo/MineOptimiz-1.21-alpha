@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = io.123smallmushroom.uimanager
+  identifier = io.123smallmushroom.tools
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -17,13 +17,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui;io.123smallmushroom.uimanager1%btnaction_splitter_fm%
-  x = -61
-  width = 127
+  buttonaction = closegui;net.minecraft.client.gui.screens.OptionsScreen%btnaction_splitter_fm%
+  x = -117
+  width = 238
   action = addbutton
-  actionid = 431e8743-67a9-4aca-a31e-95260a79571f1706965022364
-  y = -58
-  label = 主菜单
+  actionid = 05ba2a89-17e2-4c5c-a31d-e00b2922113b1691285993211
+  y = 63
+  label = 返回
   height = 20
 }
 
@@ -31,13 +31,13 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = opengui;io.123smallmushroom.settings%btnaction_splitter_fm%
-  x = -58
-  width = 125
+  buttonaction = openlink;https://github.com/123SmallMushroom/Tiao-s-Modpack-For-Tiao-s-Server/issues%btnaction_splitter_fm%
+  x = -117
+  width = 238
   action = addbutton
-  actionid = 00582438-aec5-4901-b175-d4b6ea8cb8a91706965091264
-  y = 75
-  label = 返回
+  actionid = b79020d5-337b-43ba-a0d7-1e03185052a91691286194454
+  y = -8
+  label = Bug反馈
   height = 20
 }
 
