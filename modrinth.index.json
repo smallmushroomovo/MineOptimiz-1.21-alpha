@@ -97,6 +97,6 @@
     ],
     "formatVersion": 1,
     "game": "minecraft",
-    "name": "MineOptimiz Fabric 1.20.1",
-    "versionId": "v3.201.2-fabric+buildtype"
+    "name": "MineOptimiz Fabric-Legacy 1.20.1",
+    "versionId": "v3.201.2-fabriclegacy+buildtype"
 }

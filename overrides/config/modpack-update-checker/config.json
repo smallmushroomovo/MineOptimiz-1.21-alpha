@@ -4,7 +4,7 @@
   "modpackName": "MineOptimiz Fabric",
   "modpackAuthor": "smallmushroomovo",
   "modpackReleaseType": "beta",
-  "updateCheckerId": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/1.20.1-Dev/",
+  "updateCheckerId": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/smallmushroomovo/MineOptimiz-Legacy/1.20.1-FabricLegacy-Dev/",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,
