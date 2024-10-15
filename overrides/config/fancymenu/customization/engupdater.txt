@@ -43,15 +43,15 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui%btnaction_splitter_fm%
-  x = 164
+  x = -77
   width = 162
   action = addbutton
   actionid = d3f5e7c1-6ef9-4131-b602-d9226bcea5d31706964540895
-  y = 237
+  y = -33
   label = Back
   height = 20
 }

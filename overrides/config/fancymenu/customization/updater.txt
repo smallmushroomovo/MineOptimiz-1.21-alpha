@@ -43,15 +43,15 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = opengui;io.123smallmushroom.settings%btnaction_splitter_fm%
-  x = 184
+  x = -55
   width = 115
   action = addbutton
   actionid = d3f5e7c1-6ef9-4131-b602-d9226bcea5d31706964540895
-  y = 241
+  y = -34
   label = 返回
   height = 20
 }
